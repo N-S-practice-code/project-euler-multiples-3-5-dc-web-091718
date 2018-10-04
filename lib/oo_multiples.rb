@@ -4,7 +4,6 @@ class Multiples
     @limit=limit
   end
   
-  def 
   
   def collect_multiples
     (1..(@limit-1)).to_a.select{|n| n%3==0 or n%5==0}
