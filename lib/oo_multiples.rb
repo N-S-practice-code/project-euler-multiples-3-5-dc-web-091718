@@ -12,6 +12,6 @@ class Multiples
 
 
   def sum_multiples
-    collect_multiples(limit).reduce(0, :+)
+    collect_multiples.reduce(0, :+)
   end
 end
